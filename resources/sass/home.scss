@@ -1,0 +1,33 @@
+.container2{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    h1{
+        color: #094067;
+        font-size: 5rem;
+    }
+    p{
+        font-style: italic;
+        font-weight: bold;
+        color: #5f6c7b;
+    }
+    button{
+        border: none;
+        padding: 10px;
+        background-color: #3da9fc;
+        &:hover{
+            background-color: white;
+            outline: 2px solid #094067;
+        }
+        a{
+            text-decoration: none;
+            color: #094067;
+            font-weight: bold;
+            font-style: italic;
+        }
+    }
+}

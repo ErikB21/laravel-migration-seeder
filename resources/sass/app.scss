@@ -1,0 +1,28 @@
+@import '/resources/sass/home.scss';
+@import '/resources/sass/header.scss';
+@import '/resources/sass/footer.scss';
+@import '/resources/sass/about.scss';
+@import '/resources/sass/trains.scss';
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow-y: hidden; 
+    main{
+        height: calc(100vh - 160px);
+        width: 100%;
+        overflow-y: auto;
+        background-color: #fffffe;
+    }
+}
+

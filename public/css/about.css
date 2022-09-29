@@ -1,0 +1,21 @@
+.container3 {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container3 h1 {
+  color: #094067;
+  font-size: 5rem;
+}
+
+.container3 p {
+  font-style: italic;
+  font-weight: bold;
+  color: #a7a9be;
+}
+

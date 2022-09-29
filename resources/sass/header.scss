@@ -1,0 +1,34 @@
+header{
+    border-bottom: 1px solid  #094067;
+    width: 100%;
+    background-color: #fffffe;
+    nav{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        .logo{
+            width: 80px;
+            padding-top: 10px;
+            height: 80px;
+            img{
+                width: 100%;
+            }
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            li{
+                padding: 0 10px;
+                a{
+                    text-decoration: none;
+                    color: #5f6c7b;
+                }
+            }
+        }
+    }
+
+}

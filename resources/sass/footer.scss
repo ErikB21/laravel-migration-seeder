@@ -1,0 +1,33 @@
+footer{
+    width: 100%;
+    border-top: 1px solid #094067;
+    align-items: center;
+    background-color: #fffffe;
+    .container{
+        height: 80px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .copyright{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            li{
+                list-style: none;
+                padding-left: 6rem;
+                color: #5f6c7b;
+            }
+        }
+        .links{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            li{
+                padding: 0 10px;
+                color: #5f6c7b;
+            }
+        }
+    }
+}
